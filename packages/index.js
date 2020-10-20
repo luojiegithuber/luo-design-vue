@@ -1,9 +1,13 @@
 import LuojieTest from './test'
 import LuoButton from './button'
+import testA from './testA'
+import testB from './testB'
 
 const components = [
     LuojieTest,
-    LuoButton
+    LuoButton,
+    testA,
+    testB,
 ]
 
 const install = function (Vue) {

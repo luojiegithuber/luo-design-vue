@@ -2,6 +2,8 @@
   <div id="app">
     <luojie-test></luojie-test>
     <luo-button type="success"></luo-button>
+    <testA></testA>
+    <testB></testB>
   </div>
 </template>
 
