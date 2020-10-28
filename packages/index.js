@@ -2,12 +2,13 @@ import LuojieTest from './test'
 import LuoButton from './button'
 import testA from './testA'
 import testB from './testB'
-
+import MobileTable from './moblie-table'
 const components = [
     LuojieTest,
     LuoButton,
     testA,
     testB,
+    MobileTable,
 ]
 
 const install = function (Vue) {

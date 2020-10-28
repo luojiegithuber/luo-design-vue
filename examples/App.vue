@@ -4,6 +4,7 @@
     <luo-button type="success"></luo-button>
     <testA></testA>
     <testB></testB>
+    <mobile-table></mobile-table>
   </div>
 </template>
 

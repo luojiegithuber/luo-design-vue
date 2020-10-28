@@ -1,6 +1,7 @@
   
 const fs = require('fs');
 const path = require('path');
+const webpack = require('webpack')
 function resolve(dir) {
     return path.resolve(__dirname, dir)
 }
@@ -72,7 +73,16 @@ const buildConfig = {
         output: {
             filename: '[name]/index.js',
             libraryTarget: 'commonjs2',
-        }
+        },
+    
+        plugins: [    
+            new webpack.ProvidePlugin({        
+                $: 'jquery',        
+                jQuery: 'jquery',        
+                'windows.jQuery': 'jquery'      
+            })    
+        ]  
+
     },
     chainWebpack: config => {
         config.module
