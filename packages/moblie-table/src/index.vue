@@ -36,6 +36,7 @@
 </template>
 <script>
 import $ from 'jquery'
+import { Icon } from 'vant';
 export default {
   name : 'MobileTable', 
   data () {
